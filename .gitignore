@@ -1,0 +1,28 @@
+.idea
+.vscode
+.DS_Store
+
+dist
+build
+debug
+debug.test
+
+#gen files
+*.gen.go
+*-packr.go
+
+#nodejs files
+node_modules
+
+#yarn
+.yarn
+
+#turbo
+.turbo
+
+#generated files
+*.gen.tsx
+*.gen.html
+
+#lock files
+pnpm-lock.yaml
